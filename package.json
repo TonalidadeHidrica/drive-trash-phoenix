@@ -1,0 +1,8 @@
+{
+  "name": "drive-trash-phoenix",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:TonalidadeHidrica/drive-trash-phoenix.git",
+  "author": "TonalidadeHidrica <47710717+TonalidadeHidrica@users.noreply.github.com>",
+  "license": "MIT"
+}
