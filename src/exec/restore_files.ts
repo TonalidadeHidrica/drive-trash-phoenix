@@ -5,7 +5,7 @@ import { drive_v3 } from "googleapis";
 (async () => {
     const [, , jsonFilePath, trashFolderId, startIndexStr] = process.argv;
     if (!jsonFilePath || !trashFolderId) {
-        console.error("Usage: hoge.ts [jsonFilePath] [trashFolderId]");
+        throw new Error("Usage: hoge.ts [jsonFilePath] [trashFolderId]");
     }
     const start = startIndexStr ? Number.parseInt(startIndexStr) : 0;
 
